@@ -4,26 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Самый частый элемент</title>
+    <title>Задание с числами в тесте IQ</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <div class="container">
-      <h1 class="title">Самый частый элемент</h1>
+      <h1 class="title">Задание с числами в тесте IQ</h1>
       <h2 class="subtitle">Условия задачи:</h2>
       <p>
-         Найти, сколько раз встречается самый частый элемент в
-        объединении двух отсортированных по возрастанию массивов. Элементы могут
-        повторяться.
+        Написать функцию для прохождения типового задания с числами в тесте iq — из списка чисел найти то, которое отличается по чётности от остальных, и вернуть его позицию.
       </p>
       <h2 class="subtitle">Примеры:</h2>
-      <p>countMostFrequent([1, 2, 2, 3], [0, 2, 4, 4]) => 3</p>
-      <p>countMostFrequent([], [0, 0]) => 2</p>
+      <p>iqTest("2 4 7 8 10") => 3</p>
+      <p>iqTest("1 2 1 1") => 2</p>
       <h2 class="subtitle">Результат:</h2>
       <p id="results"></p>
       <h2 class="subtitle">Сложность решения:</h2>
-      <p>O(n + m)</p>
+      <p>O(n)</p>
     </div>
-    <script src="./js/frequent.bundle.js"></script>
+    <script src="./js/testiq.bundle.js"></script>
   </body>
 </html>

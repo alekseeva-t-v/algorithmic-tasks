@@ -1,4 +1,4 @@
-import { frequentTest } from "./modules/frequent-tester";
+import { test } from "./modules/tester";
 
 /**
  * Возвращает число, означающее, сколько раз встречается самый частый элемент в объединении двух отсортированных по возрастанию массивов.
@@ -17,6 +17,6 @@ function countMostFrequent(firstArray, secondArray) {
   return Math.max(...Object.values(counter));
 }
 
-frequentTest(countMostFrequent([1, 2, 2, 3], [0, 2, 4, 4]), 3);
-frequentTest(countMostFrequent([], [0, 0]), 2)
+test(countMostFrequent([1, 2, 2, 3], [0, 2, 4, 4]), 3);
+test(countMostFrequent([], [0, 0]), 2)
 

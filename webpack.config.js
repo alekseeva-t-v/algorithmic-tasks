@@ -3,6 +3,7 @@ const config = {
   entry: {
     index: './src/js/index.js',
     frequent: './src/js/frequent.js',
+    testiq: './src/js/testiq.js',
   },
   output: {
     filename: '[name].bundle.js',
