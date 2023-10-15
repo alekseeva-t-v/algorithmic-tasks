@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Валидация скобочных выражений</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Валидация скобочных выражений</h1>
+      <h2 class="subtitle">Условия задачи:</h2>
+      <p>
+        В данном нам тексте нужно провалидировать, что все скобки корректно расставлены. Например, (((())())) является корректной расстановкой, а ()( — нет
+      </p>
+      <h2 class="subtitle">Примеры:</h2>
+      <p>validateparenthesis('(((())()))') => true</p>
+      <p>validateparenthesis('())') => false</p>
+      <h2 class="subtitle">Результат:</h2>
+      <p id="results"></p>
+    </div>
+    <script src="./js/validateparenthesis.bundle.js"></script>
+  </body>
+</html>

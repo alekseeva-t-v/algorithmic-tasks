@@ -4,6 +4,7 @@ const config = {
     index: './src/js/index.js',
     frequent: './src/js/frequent.js',
     testiq: './src/js/testiq.js',
+    validateparenthesis: './src/js/validateparenthesis.js',
   },
   output: {
     filename: '[name].bundle.js',

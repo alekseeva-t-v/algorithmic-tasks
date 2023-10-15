@@ -35,3 +35,20 @@
 Реализация функции в файле `src/js/testiq.js`.
 
 [DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/testiq.html)
+
+---
+### **Валидация скобочных выражений**
+
+![frequent-element](./public/validateparenthesis.jpg)
+
+Задача —  в данном нам тексте нужно провалидировать, что все скобки корректно расставлены. Например, (((())())) является корректной расстановкой, а ()( — нет.
+
+Примеры:
+
+`validateparenthesis('(((())()))') => true`
+
+`validateparenthesis('())') => false`
+
+Реализация функции в файле `src/js/validateparenthesis.js`.
+
+[DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/validateparenthesis.html)
