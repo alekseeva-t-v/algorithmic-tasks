@@ -22,7 +22,7 @@
 ---
 ### **Задание с числами в тесте IQ**
 
-![frequent-element](./public/testiq.jpg)
+![test-iq](./public/testiq.jpg)
 
 Задача —  написать функцию для прохождения типового задания с числами в тесте iq — из списка чисел найти то, которое отличается по чётности от остальных, и вернуть его позицию.
 
@@ -39,7 +39,7 @@
 ---
 ### **Валидация скобочных выражений**
 
-![frequent-element](./public/validateparenthesis.jpg)
+![validate-parenthesis](./public/validateparenthesis.jpg)
 
 Задача —  в данном нам тексте нужно провалидировать, что все скобки корректно расставлены. Например, (((())())) является корректной расстановкой, а ()( — нет.
 
@@ -56,7 +56,7 @@
 ---
 ### **Аврал в офисе**
 
-![frequent-element](./public/rushhourinoffice.jpg)
+![rush-hour-in-office](./public/rushhourinoffice.jpg)
 
 Офис X работает по правилам коворкинга: каждый сотрудник может работать из дома или приходить в офис. В спокойные дни в офисе тихо, приходят пара-тройка людей. А ближе к релизам/отчетным периодам/другим завалам людей гораздо больше, но все сотрудники всё равно никогда не выходят. 
 
@@ -79,3 +79,20 @@
 Реализация функции в файле `src/js/rushhourinoffice.js`.
 
 [DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/rushhourinoffice.html)
+
+---
+### **Бинарный поиск**
+
+![binary-search](./public/binarysearch.jpg)
+
+На входе имеем отсортированный в алфавитном порядке список из растений. Необходимо написать функцию, которая будет бинарным поиском искать позицию переданного в неё растения.
+
+Примеры:
+
+`binarySearch(plants, "Пион") => 5`
+
+`binarySearch(plants, "Роза") => null`
+
+Реализация функции в файле `src/js/binarysearch.js`.
+
+[DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/binarysearch.html)

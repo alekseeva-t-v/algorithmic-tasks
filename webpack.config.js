@@ -6,6 +6,7 @@ const config = {
     testiq: './src/js/testiq.js',
     validateparenthesis: './src/js/validateparenthesis.js',
     rushhourinoffice: './src/js/rushhourinoffice.js',
+    binarysearch: './src/js/binarysearch.js',
   },
   output: {
     filename: '[name].bundle.js',
