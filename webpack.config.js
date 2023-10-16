@@ -5,6 +5,7 @@ const config = {
     frequent: './src/js/frequent.js',
     testiq: './src/js/testiq.js',
     validateparenthesis: './src/js/validateparenthesis.js',
+    rushhourinoffice: './src/js/rushhourinoffice.js',
   },
   output: {
     filename: '[name].bundle.js',
