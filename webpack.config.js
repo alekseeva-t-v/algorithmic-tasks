@@ -7,7 +7,8 @@ const config = {
     validateparenthesis: './src/js/validateparenthesis.js',
     rushhourinoffice: './src/js/rushhourinoffice.js',
     binarysearch: './src/js/binarysearch.js',
-    searchscore: './src/js/searchscore.js'
+    searchscore: './src/js/searchscore.js',
+    flatarray: './src/js/flatarray.js',
   },
   output: {
     filename: '[name].bundle.js',
