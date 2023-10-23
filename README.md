@@ -161,7 +161,7 @@
   "league": 2,
   "placement": 2,
 }
-````
+```
 
 Реализация функции в файле `src/js/searchscore.js`.
 
@@ -187,3 +187,21 @@
 Реализация функции в файле `src/js/flatarray.js`.
 
 [DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/flatarray.html)
+
+### **Числа Фибоначчи**
+
+![fibonacci](./public/fibonacci.jpg)
+
+Необходимо создать функцию для получения числа из последовательности Фибоначчи по индексу. Первое её число — 0, второе — 1, а каждое последующее — сумма двух предыдущих.
+
+Примеры:
+
+`fibonacci(1) // 0`
+
+`fibonacci(2) // 1`
+
+`fibonacci(13) // 144`
+
+Реализация функции в файле `src/js/fibonacci.js`.
+
+[DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/fibonacci.html)

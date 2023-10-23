@@ -9,6 +9,7 @@ const config = {
     binarysearch: './src/js/binarysearch.js',
     searchscore: './src/js/searchscore.js',
     flatarray: './src/js/flatarray.js',
+    fibonacci: './src/js/fibonacci.js',
   },
   output: {
     filename: '[name].bundle.js',
