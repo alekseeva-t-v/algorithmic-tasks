@@ -188,6 +188,8 @@
 
 [DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/flatarray.html)
 
+---
+
 ### **Числа Фибоначчи**
 
 ![fibonacci](./public/fibonacci.jpg)
@@ -205,3 +207,25 @@
 Реализация функции в файле `src/js/fibonacci.js`.
 
 [DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/fibonacci.html)
+
+---
+
+### **Рекурсивный бинарный поиск**
+
+![binary-search-includes](./public/binarysearchincludes.jpg)
+
+Необходимо определить присутствует элемент в массиве или нет  (оптимизированный includes на сортированном массиве). Необходимо использовать бинарный поиск по новым условиям, с помощью рекурсии.
+
+Примеры:
+
+`binarySearch([], 3) // false`
+
+`binarySearch([3], 3) // true`
+
+`binarySearch([1, 2, 3, 4, 5], 4) // true`
+
+`binarySearch([1, 2, 3, 5, 6], 4) // false`
+
+Реализация функции в файле `src/js/binarysearchincludes.js`.
+
+[DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/binarysearchincludes.html)
