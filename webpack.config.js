@@ -11,6 +11,7 @@ const config = {
     flatarray: './src/js/flatarray.js',
     fibonacci: './src/js/fibonacci.js',
     binarysearchincludes: './src/js/binarysearchincludes.js',
+    searchscoreguild: './src/js/searchscoreguild.js'
   },
   output: {
     filename: '[name].bundle.js',
