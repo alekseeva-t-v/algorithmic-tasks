@@ -259,4 +259,4 @@
 
 Реализация функции в файле `src/js/searchscoreguild.js`.
 
-[DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/bsearchscoreguild.html)
+[DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/searchscoreguild.html)
