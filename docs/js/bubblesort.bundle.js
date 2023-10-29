@@ -1,0 +1,1 @@
+!function(){"use strict";const n=document.getElementById("results");!function(t){for(let n=0;n<t.length-1;n++)for(let e=0;e<t.length-1-n;e++)t[e]>t[e+1]&&([t[e],t[e+1]]=[t[e+1],t[e]]);!function(t){const e=document.createElement("li");e.innerHTML=`[${t.join(", ")}]`,n.appendChild(e)}(t)}([56,87,18,92,42,31,44,82,36,91])}();

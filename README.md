@@ -260,3 +260,23 @@
 Реализация функции в файле `src/js/searchscoreguild.js`.
 
 [DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/searchscoreguild.html)
+
+---
+
+### **Сортировка пузырьками**
+
+![bubble-sort](./public/bubblesort.jpg)
+
+Необходимо реализовать на практике сортировку пузырьками.
+
+Примеры:
+
+`bubbleSort([5, 3, 2, 1]) => [1, 2, 3, 5]`
+
+`bubbleSort([1, 2, 3]) => [1, 2, 3]`
+
+Реализация функции в файле `src/js/bubblesort.js`.
+
+[DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/bubblesort.html)
+
+---
