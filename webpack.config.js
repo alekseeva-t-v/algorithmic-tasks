@@ -13,6 +13,7 @@ const config = {
     binarysearchincludes: './src/js/binarysearchincludes.js',
     searchscoreguild: './src/js/searchscoreguild.js',
     bubblesort: './src/js/bubblesort.js',
+    quicksort: './src/js/quicksort.js',
   },
   output: {
     filename: '[name].bundle.js',

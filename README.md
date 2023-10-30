@@ -280,3 +280,21 @@
 [DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/bubblesort.html)
 
 ---
+
+### **Быстрая сортировка**
+
+![quic-sort](./public/quicsort.jpg)
+
+Необходимо реализовать на практике быструю сортировку.
+
+Примеры:
+
+`quickSort([5, 3, 2, 1]) => [1, 2, 3, 5]`
+
+`quickSort([1, 2, 3]) => [1, 2, 3]`
+
+Реализация функции в файле `src/js/quicksort.js`.
+
+[DEMO](https://alekseeva-t-v.github.io/algorithmic-tasks/quicksort.html)
+
+---
